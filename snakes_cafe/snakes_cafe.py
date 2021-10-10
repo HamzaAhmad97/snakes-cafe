@@ -78,5 +78,5 @@ def get_orders():
     prompt()
     return choices
 
-
-get_orders()
+if __name__ == '__main__':
+    get_orders()
